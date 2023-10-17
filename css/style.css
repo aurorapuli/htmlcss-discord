@@ -7,13 +7,18 @@
 
 :root{
     font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* stili nav */
+header{
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 nav{
-    background-color: lightskyblue;
-    padding: 10px 0;   
+    padding: 16px 0;   
 }
 
 .container-nav{
@@ -22,14 +27,10 @@ nav{
     align-items: center;
     width: 70%;
     margin: 0 auto;
-    /* DEBUG */
-    background-color: orange;
-    border: 1px dotted black;
 }
 
 .container-nav ul{
     display: flex;
-    border: 3px dotted black;
     flex-basis: 50%;
     justify-content: center;
     padding: 10px 10px; 
@@ -40,32 +41,65 @@ ul li{
     padding: 0 10px;
 }
 
-.container-nav div{
-    flex-basis: 25%;
-    border: 3px dotted black;
-    padding: 10px 10px;
+.link-nav{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
 }
 
-.container-nav button{
+.container-nav div{
     flex-basis: 25%;
-    border: 3px dotted black;
-    padding: 10px 10px;
+}
+
+.container-nav .button{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button button{
+    border: none;
+    border-radius: 23px;
+    padding: 10px 16px;
+    font-size: 16px;
 }
 
 /* stili main-header */
 
 .main-header{
-    background-color: blue;
-    display: flex;
+    font-size: 20px;
+    display: flex;;
 }
 
 .text-header{
-    width: 60%;
-    margin: 20px auto;
+    width: 43%;
+    margin: 60px auto;
     padding: 25px 0;
+    text-align: center;
+    color: white;
     /* DEBUG */
-    min-height: 250px;
-    background-color: pink;
+}
+
+.text-header p{
+    padding: 25px 0;
+}
+
+.text-header button{
+    border: none;
+    border-radius: 23px;
+    padding: 10px 16px;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.button-white::before{
+    content: "\2913";
+    margin: 0 3px;
+}
+
+.button-black{
+    background-color: #23272a;
+    color: white;
 }
 
 /* stili main generali*/
