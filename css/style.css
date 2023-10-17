@@ -14,7 +14,7 @@
 header{
     background-image:url(../img/jumbo.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 nav{
@@ -38,13 +38,13 @@ nav{
 
 ul li{
     list-style-type: none;
-    padding: 0 10px;
 }
 
 .link-nav{
     font-size: 17px;
     color: white;
     text-decoration: none;
+    padding: 0 10px;
 }
 
 .container-nav div{
@@ -148,16 +148,33 @@ section{
     text-align: center;
 }
 
-#container-section4 img{
+#big-img{
     width: 100%;
 }
-
 #container-section4 h2{
     padding: 16px 0;
     font-size: 50px;
 }
 #container-section4 p{
     font-size: 18px;
+}
+
+#stars-img{
+   width: 30%;
+}
+
+#container-section4 button{
+    border: none;
+    border-radius: 23px;
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: #8ea1e1;
+    margin: 30px 0;
+}
+
+#container-section4 button::before{
+    content: "\2913";
+    margin: 0 3px;
 }
 
 
@@ -172,33 +189,84 @@ footer{
     justify-content: space-between;
     width: 70%;
     margin: 0 auto;
-    padding: 5px 0 30px 0;
+    padding: 40px 0 30px 0;
     min-height: 400px;
+}
+.social h2{
+    font-size: 34px;
+    color: #4c5a86;
 }
 
 .social{
     flex-basis: 50%;
-    background-color: pink;
+}
+
+.paese{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    color: white;
+
+}
+
+.paese::after{
+    content: "\22C1";
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.paese img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+#social-icons{
+    color: white;
+}
+
+#social-icons i{
+    padding-right: 10px;
 }
 
 .list{
     flex-basis: 25%;
-    background-color: aqua;
-    border: 2px dotted white;
+}
+
+.list ul{
+    font-size: 18px;
+    color:  #4c5a86;
+}
+
+.link-footer{
+    padding: 6px 0;
+}
+
+.link-footer a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
 }
 
 #end{
     border-top:1px solid gray;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 .container-end{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:  lightskyblue;
     width: 70%;
     margin: 0 auto;
-    min-height: 40px;
+}
+
+.container-end button{
+    color: white;
+    border: none;
+    border-radius: 23px;
+    padding: 10px 16px;
+    background-color: #8ea1e1;
+
 }
 
