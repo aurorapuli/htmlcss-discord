@@ -132,16 +132,16 @@ section{
  
 /* stili section specifici */
 
-.sezione2, .sezione4{
+.sezione-grey{
     background-color: #f6f6f6;
 }
 
-#img-main2{
+#img-item2{
     flex-basis: 60%;
     order: 1;
 }
 
-#container-section4{
+#container-bigsection{
     width: 70%;
     margin: 0 auto;
     padding: 25px 0;
@@ -151,11 +151,11 @@ section{
 #big-img{
     width: 100%;
 }
-#container-section4 h2{
+#container-bigsection h2{
     padding: 16px 0;
     font-size: 50px;
 }
-#container-section4 p{
+#container-bigsection p{
     font-size: 18px;
 }
 
@@ -163,7 +163,7 @@ section{
    width: 30%;
 }
 
-#container-section4 button{
+#container-bigsection button{
     border: none;
     border-radius: 23px;
     padding: 10px 16px;
@@ -172,7 +172,7 @@ section{
     margin: 30px 0;
 }
 
-#container-section4 button::before{
+#container-bigsection button::before{
     content: "\2913";
     margin: 0 3px;
 }
@@ -269,4 +269,3 @@ footer{
     background-color: #8ea1e1;
 
 }
-
